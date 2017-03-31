@@ -1,5 +1,3 @@
-from .Equipos import Equipos
-from .Partido import Partido
 class Torneo(object):
     Equipos=[]
 
