@@ -7,7 +7,7 @@ class Equipos(object):
 
     Capitan=None
 
-    Disponibilidad=[[False,False,False],[False,False,False],[False,False,False],[False,False,False],[False,False,False],[False,False,False],[False,False,False]]
+    Disponibilidad=[[False,False,False],[False,False,False],[False,False,False],[False,False,False],[False,False,False]]
 
     Jugadores=[]
 
