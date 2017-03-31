@@ -1,7 +1,6 @@
 from Clases.Equipos import Equipos
 from Clases.Jugadores import Jugadores
 from Clases.Torneo import Torneo
-from Clases.Partido import Partido
 
 CarlitosTevez=Jugadores()
 CarlitosTevez.setNombre("Carlos Tevez")
@@ -81,15 +80,3 @@ TrapitoCC.setDisponibilidad(4,0,True)
 ChampionsLeague=Torneo()
 ChampionsLeague.agregarEquipos(TrapitoCC)
 ChampionsLeague.agregarEquipos(ChoripanCC)
-
-Match1=Partido()
-Match1.setDia(2)
-Match1.setTurno(2)
-Match1.setEquipos(TrapitoCC,ChoripanCC)
-Match1.setGanador(TrapitoCC)
-
-Match2=Partido()
-Match2.setDia(0)
-Match2.setTurno(1)
-Match2.setEquipos(ChoripanCC,TrapitoCC)
-Match2.setGanador(ChoripanCC)
