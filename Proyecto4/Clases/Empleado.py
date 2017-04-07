@@ -35,3 +35,10 @@ class Empleado(object):
             self.ListaDias[3]=True
         if Viernes==True:
             self.ListaDias[4]=True
+
+    def calcularAsistencia(self, Mes):
+        DiasQueTrabajo=None
+        for variable in self.ListaAsistencia:
+            if variable.month==Mes:
+                DiasQueTrabajo+=1
+        return DiasQueTrabajo/4
