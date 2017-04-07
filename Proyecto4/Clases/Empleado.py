@@ -38,7 +38,14 @@ class Empleado(object):
 
     def calcularAsistencia(self, Mes):
         DiasQueTrabajo=None
+        DiasLaborables=None
+
+        for item in self.ListaDias:
+            if item==True:
+                DiasLaborables+=1
+        DiasLaborables*=4
+
         for variable in self.ListaAsistencia:
             if variable.month==Mes:
                 DiasQueTrabajo+=1
-        return DiasQueTrabajo/4
+        return DiasQueTrabajo/DiasLaborables

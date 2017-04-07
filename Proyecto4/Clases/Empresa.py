@@ -6,4 +6,3 @@ class Empresa(object):
 
     def agregarEmpleado(self, Empleado):
         self.ListaEmpleados.append(Empleado)
-
