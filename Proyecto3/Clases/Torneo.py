@@ -1,7 +1,9 @@
+from .FIxture import Fixture
 class Torneo(object):
+
     Equipos=[]
 
-    Partidos=[]
+    Fixtures=Fixture()
 
     def agregarEquipos(self, n):
         for variable in self.Equipos:
